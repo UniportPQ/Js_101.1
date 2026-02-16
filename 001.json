@@ -1,0 +1,272 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "JavaScript Fundamentals",
+    "code": "JavaScript ",
+    "session": "101",
+    "topics": ["Strings", "Arrays", "Objects"],
+    "time": "30"
+  },
+
+  {
+    "type": "Instruction",
+    "content": "Choose the most correct answer for each question"
+  },
+
+  {
+    "type": "heading",
+    "heading": "Section A – Strings"
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Strings"],
+    "Question": {
+      "content": "What is a string in JavaScript?",
+      "type": "OBJ",
+      "options": [
+        "A collection of key-value pairs",
+        "A sequence of characters used to represent text",
+        "A list of ordered values",
+        "A number wrapped in quotes"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A sequence of characters used to represent text"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>What is a String?</h4>\n  A <strong>string</strong> is simply a piece of text. It is made up of a sequence of characters — letters, numbers, symbols, or spaces — all wrapped in either single quotes, double quotes, or backticks. Strings are one of the most fundamental data types in JavaScript and are used any time you need to work with text.\n</div>"
+    }
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Strings"],
+    "Question": {
+      "content": "Strings in JavaScript are said to be \"immutable\". What does this mean?",
+      "type": "OBJ",
+      "options": [
+        "Strings cannot be stored in variables",
+        "Strings can only contain letters, not numbers",
+        "Once a string is created, its characters cannot be changed directly",
+        "Strings automatically delete themselves after use"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Once a string is created, its characters cannot be changed directly"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>String Immutability</h4>\n  <strong>Immutable</strong> means you cannot go in and change a single character of a string after it has been created. If you want a modified version, JavaScript creates a <em>brand new string</em> rather than editing the original. For example, methods like <code>toUpperCase()</code> or <code>replace()</code> do not alter the original string — they always return a new one.\n</div>"
+    }
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Strings"],
+    "Question": {
+      "content": "What does the \"length\" property of a string tell you?",
+      "type": "OBJ",
+      "options": [
+        "The number of words in the string",
+        "The total number of characters in the string, including spaces",
+        "The size of the string in kilobytes",
+        "The number of uppercase letters in the string"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The total number of characters in the string, including spaces"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>String Length</h4>\n  The <strong>length</strong> property counts every single character in a string — letters, digits, spaces, punctuation, and symbols all count. For example, the string <em>\"Hello World\"</em> has a length of <strong>11</strong> because the space between the two words is also a character.\n</div>"
+    }
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Strings"],
+    "Question": {
+      "content": "How are individual characters in a string accessed?",
+      "type": "OBJ",
+      "options": [
+        "By their name",
+        "By their position (index), starting from 1",
+        "By their position (index), starting from 0",
+        "Strings do not allow access to individual characters"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "By their position (index), starting from 0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>String Indexing</h4>\n  Every character in a string has a numbered position called an <strong>index</strong>, and counting always starts at <strong>0</strong>, not 1. So in the string <em>\"Hello\"</em>, <em>H</em> is at index 0, <em>e</em> is at index 1, <em>l</em> is at index 2, and so on. This zero-based counting applies to strings, arrays, and most ordered data in JavaScript.\n</div>"
+    }
+  },
+
+  {
+    "type": "heading",
+    "heading": "Section B – Arrays"
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Arrays"],
+    "Question": {
+      "content": "What is an array in JavaScript?",
+      "type": "OBJ",
+      "options": [
+        "A single value stored in a variable",
+        "An ordered list that can hold multiple values in a single variable",
+        "A collection of properties with names and values",
+        "A special type of string that holds numbers"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "An ordered list that can hold multiple values in a single variable"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>What is an Array?</h4>\n  An <strong>array</strong> is like a container that holds a list of items in a specific order under one name. Instead of creating separate variables for each item — like <em>fruit1, fruit2, fruit3</em> — you can store them all in one array. Arrays can hold any mix of values: numbers, strings, booleans, or even other arrays.\n</div>"
+    }
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Arrays"],
+    "Question": {
+      "content": "Can a single JavaScript array hold different data types at the same time?",
+      "type": "OBJ",
+      "options": [
+        "No, all items in an array must be the same data type",
+        "Yes, but only numbers and strings can be mixed",
+        "Yes, a JavaScript array can hold any combination of data types",
+        "No, arrays can only hold numbers"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Yes, a JavaScript array can hold any combination of data types"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Arrays are Flexible</h4>\n  JavaScript arrays are <strong>loosely typed</strong>, meaning a single array can contain a number, a string, a boolean, another array, or even an object — all at the same time. For example, an array could look like <em>[42, \"hello\", true, [1, 2], { name: \"Alice\" }]</em>. This flexibility is a defining feature of JavaScript.\n</div>"
+    }
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Arrays"],
+    "Question": {
+      "content": "What happens to the other elements when a new item is added to the beginning of an array?",
+      "type": "OBJ",
+      "options": [
+        "The last element is automatically removed to make space",
+        "All existing elements shift one position to the right, increasing their index by 1",
+        "The existing elements keep their original positions",
+        "The array resets and all old items are deleted"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All existing elements shift one position to the right, increasing their index by 1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Adding to the Beginning of an Array</h4>\n  Arrays maintain <strong>order</strong>, so when you insert a new item at the front, every existing element must move one step to the right to make room. What was at index 0 becomes index 1, index 1 becomes index 2, and so on. This is why adding to the beginning of a large array is slower than adding to the end — every element must be re-indexed.\n</div>"
+    }
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Arrays"],
+    "Question": {
+      "content": "What does the term \"index\" mean in the context of an array?",
+      "type": "OBJ",
+      "options": [
+        "The total count of items in the array",
+        "The name given to the array",
+        "The numbered position of an element within the array, starting from 0",
+        "The last item stored in the array"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The numbered position of an element within the array, starting from 0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Array Index</h4>\n  An <strong>index</strong> is simply the address of an item inside an array. The first item always lives at index <strong>0</strong>, the second at index <strong>1</strong>, and so on. You use this index to retrieve or update a specific item. Because counting starts at 0, the last item in an array of 5 elements is at index <strong>4</strong>, not 5.\n</div>"
+    }
+  },
+
+  {
+    "type": "heading",
+    "heading": "Section C – Objects"
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Objects"],
+    "Question": {
+      "content": "What is a JavaScript object best described as?",
+      "type": "OBJ",
+      "options": [
+        "An ordered list of values identified by index numbers",
+        "A single value stored with a unique name",
+        "A collection of related data stored as named key-value pairs",
+        "A type of array that only holds text"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A collection of related data stored as named key-value pairs"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>What is an Object?</h4>\n  A JavaScript <strong>object</strong> groups related information together using <strong>keys</strong> (names) and <strong>values</strong>. Think of it like a real-world passport — it has a name, a date of birth, a nationality, and so on, all bundled under one identity. Each piece of information has a label (the key) and a corresponding piece of data (the value). This makes objects ideal for representing real-world things.\n</div>"
+    }
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Objects"],
+    "Question": {
+      "content": "What is the main difference between how arrays and objects store their data?",
+      "type": "OBJ",
+      "options": [
+        "Arrays store data with named keys; objects store data by numbered index",
+        "Arrays store data by numbered index (position); objects store data with named keys",
+        "There is no difference — arrays and objects work exactly the same way",
+        "Objects store data in order; arrays store data randomly"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Arrays store data by numbered index (position); objects store data with named keys"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Arrays vs Objects</h4>\n  The key difference is <strong>how you identify each piece of data</strong>:<br/><br/>\n  In an <strong>array</strong>, items are identified by their numeric position — 0, 1, 2, 3. Order matters.<br/><br/>\n  In an <strong>object</strong>, items are identified by a meaningful name (key) — like <em>\"name\"</em>, <em>\"age\"</em>, or <em>\"email\"</em>. Order does not matter. Use an array when you have a list; use an object when you have a thing with distinct, named properties.\n</div>"
+    }
+  }
+    ]
+    
