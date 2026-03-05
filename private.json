@@ -19,7 +19,7 @@
     "type": "Question",
     "name": "Question 1",
     "topic": [
-      "Engineering Economics",
+
       "Decision Making"
     ],
     "Question": {
@@ -46,7 +46,7 @@
     "type": "Question",
     "name": "Question 2",
     "topic": [
-      "Engineering Economics",
+
       "Measures of Worth"
     ],
     "Question": {
@@ -72,7 +72,7 @@
     "type": "Question",
     "name": "Question 3",
     "topic": [
-      "Engineering Economics",
+
       "Present Worth",
       "Time Value of Money"
     ],
@@ -99,7 +99,7 @@
     "type": "Question",
     "name": "Question 4",
     "topic": [
-      "Engineering Economics",
+
       "Future Worth",
       "Time Value of Money"
     ],
@@ -126,7 +126,7 @@
     "type": "Question",
     "name": "Question 5",
     "topic": [
-      "Engineering Economics",
+
       "Arithmetic Gradient"
     ],
     "Question": {
@@ -152,7 +152,7 @@
     "type": "Question",
     "name": "Question 6",
     "topic": [
-      "Engineering Economics",
+
       "Rate of Return"
     ],
     "Question": {
@@ -178,7 +178,7 @@
     "type": "Question",
     "name": "Question 7",
     "topic": [
-      "Engineering Economics",
+
       "Arithmetic Gradient",
       "Uniform Series"
     ],
@@ -205,7 +205,7 @@
     "type": "Question",
     "name": "Question 8",
     "topic": [
-      "Engineering Economics",
+
       "Arithmetic Gradient",
       "Uniform Series"
     ],
@@ -232,7 +232,7 @@
     "type": "Question",
     "name": "Question 9",
     "topic": [
-      "Engineering Economics",
+
       "Depreciation",
       "Straight-Line Depreciation"
     ],
@@ -259,7 +259,7 @@
     "type": "Question",
     "name": "Question 10",
     "topic": [
-      "Engineering Economics",
+
       "Depreciation",
       "Book Value"
     ],
@@ -288,7 +288,7 @@
     "type": "Question",
     "name": "Question 11",
     "topic": [
-      "Engineering Economics",
+
       "Time Value of Money"
     ],
     "Question": {
@@ -314,7 +314,7 @@
     "type": "Question",
     "name": "Question 12",
     "topic": [
-      "Engineering Economics",
+
       "Cash Flow"
     ],
     "Question": {
@@ -340,7 +340,7 @@
     "type": "Question",
     "name": "Question 13",
     "topic": [
-      "Engineering Economics",
+
       "Inflation"
     ],
     "Question": {
@@ -366,7 +366,7 @@
     "type": "Question",
     "name": "Question 14",
     "topic": [
-      "Engineering Economics",
+
       "Future Worth",
       "Time Value of Money"
     ],
@@ -393,7 +393,7 @@
     "type": "Question",
     "name": "Question 15",
     "topic": [
-      "Engineering Economics",
+
       "Time Value of Money"
     ],
     "Question": {
@@ -419,7 +419,7 @@
     "type": "Question",
     "name": "Question 16",
     "topic": [
-      "Engineering Economics",
+
       "Cash Flow Series"
     ],
     "Question": {
@@ -445,7 +445,7 @@
     "type": "Question",
     "name": "Question 17",
     "topic": [
-      "Engineering Economics",
+
       "Interest Rates"
     ],
     "Question": {
@@ -471,7 +471,7 @@
     "type": "Question",
     "name": "Question 18",
     "topic": [
-      "Engineering Economics",
+
       "Interest"
     ],
     "Question": {
@@ -497,7 +497,7 @@
     "type": "Question",
     "name": "Question 19",
     "topic": [
-      "Engineering Economics",
+
       "Financial Ratios"
     ],
     "Question": {
@@ -523,7 +523,7 @@
     "type": "Question",
     "name": "Question 20 & 21",
     "topic": [
-      "Engineering Economics",
+
       "Financial Planning"
     ],
     "Question": {
@@ -549,7 +549,7 @@
     "type": "Question",
     "name": "Question 22",
     "topic": [
-      "Engineering Economics",
+
       "Budgeting"
     ],
     "Question": {
@@ -575,7 +575,7 @@
     "type": "Question",
     "name": "Question 23",
     "topic": [
-      "Engineering Economics",
+
       "Cash Budget"
     ],
     "Question": {
@@ -601,7 +601,7 @@
     "type": "Question",
     "name": "Question 24 & 25",
     "topic": [
-      "Engineering Economics",
+
       "Cost Estimation",
       "Operational Cost"
     ],
@@ -628,7 +628,7 @@
     "type": "Question",
     "name": "Question 26 & 27",
     "topic": [
-      "Engineering Economics",
+
       "Cost Estimation"
     ],
     "Question": {
@@ -654,7 +654,7 @@
     "type": "Question",
     "name": "Question 28",
     "topic": [
-      "Engineering Economics",
+
       "Cost Estimation"
     ],
     "Question": {
@@ -680,7 +680,7 @@
     "type": "Question",
     "name": "Question 29",
     "topic": [
-      "Engineering Economics",
+
       "Public Sector",
       "Taxation"
     ],
@@ -705,7 +705,7 @@
     "type": "Question",
     "name": "Question 30",
     "topic": [
-      "Engineering Economics",
+
       "Public Sector",
       "Project Financing"
     ],
@@ -730,7 +730,7 @@
     "type": "Question",
     "name": "Question 31",
     "topic": [
-      "Engineering Economics",
+
       "Replacement Analysis"
     ],
     "Question": {
@@ -754,7 +754,7 @@
     "type": "Question",
     "name": "Question 32",
     "topic": [
-      "Engineering Economics",
+
       "Opportunity Cost"
     ],
     "Question": {
@@ -778,7 +778,7 @@
     "type": "Question",
     "name": "Question 33",
     "topic": [
-      "Engineering Economics",
+
       "Capital Financing"
     ],
     "Question": {
