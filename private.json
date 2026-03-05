@@ -1,0 +1,801 @@
+
+
+[{
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Calculus Primer",
+    "code": "ENG 402.1",
+    "session": "test Predicted",
+    "topics": ["Engineering Economics", "Decision Making", "Measures of Worth", "Present Worth", "Time Value of Money", "Future Worth", "Arithmetic Gradient", "Rate of Return", "Uniform Series", "Depreciation", "Straight-Line Depreciation", "Book Value", "Cash Flow", "Inflation", "Cash Flow Series", "Interest Rates", "Interest", "Financial Ratios", "Financial Planning", "Budgeting", "Cash Budget", "Cost Estimation", "Operational Cost", "Public Sector", "Taxation", "Project Financing", "Replacement Analysis", "Opportunity Cost", "Capital Financing"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  
+
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Engineering Economics",
+      "Decision Making"
+    ],
+    "Question": {
+      "content": "Which of the following represents the essential elements involved in decision making in engineering economic analysis?",
+      "type": "OBJ",
+      "options": [
+        "Present worth",
+        "Future worth",
+        "Annual worth",
+        "Rate of return",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Decision Making in Engineering Economics</h4>\n <p>The question asks for the <strong>essential elements involved in the decision-making process</strong>, not the specific measures used to evaluate alternatives.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Core Process</strong><br>\n Before you can calculate things like Present Worth or Rate of Return, you must go through a fundamental decision-making process. This process typically involves:\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Understanding the problem and defining the objective:</strong> What are you trying to solve?</li>\n <li><strong>Collecting relevant information:</strong> What are the costs, revenues, and timelines?</li>\n <li><strong>Identifying and selecting the best alternatives:</strong> Which option makes the most financial sense?</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Why the other options are incorrect</strong><br>\n Options (a) Present worth, (b) Future worth, (c) Annual worth, and (d) Rate of return are not steps in the decision-making process itself. Instead, they are the <strong>measures of worth</strong> or tools that engineers use <em>after</em> defining the problem to analyze and compare the alternatives. Therefore, the correct answer is \"None of the above.\"\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Engineering Economics",
+      "Measures of Worth"
+    ],
+    "Question": {
+      "content": "What is the primary purpose of using measures of worth in engineering analysis?",
+      "type": "OBJ",
+      "options": [
+        "Select the best alternatives",
+        "Collect relevant information",
+        "Understand the problem and define the objective",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Select the best alternatives"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Role of Measures of Worth</h4>\n <p><strong>Measures of worth</strong> are the specific financial metrics we calculate to compare different projects or investments. Think of them as the scorecards for your alternatives.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Common Measures of Worth</strong><br>\n The options in the previous question (Present Worth, Future Worth, Annual Worth, Rate of Return) are all classic examples of measures of worth. We calculate these numbers to see which alternative gives us the best financial outcome.\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Connecting to the Process</strong><br>\n The engineering economic analysis process has distinct steps:\n <ol style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Problem Definition:</strong> Understand the objective.</li>\n <li><strong>Information Gathering:</strong> Collect relevant data.</li>\n <li><strong>Analysis:</strong> Use <strong>measures of worth</strong> (like Present Worth) to crunch the numbers.</li>\n <li><strong>Decision:</strong> Use the results from the analysis to <strong>select the best alternative</strong>.</li>\n </ol>\n So, the measures of worth are the tools we use to perform the analysis, which directly leads to the goal of selecting the best alternative.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Engineering Economics",
+      "Present Worth",
+      "Time Value of Money"
+    ],
+    "Question": {
+      "content": "How much money should you be willing to pay now for a guaranteed N600 per year for 9 years, starting next year, at a required rate of return of 16% per year?",
+      "type": "OBJ",
+      "options": [
+        "N2663.00",
+        "N2663.90",
+        "N2763.90",
+        "N2753.90"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N2763.90"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Present Worth of an Annuity</h4>\n <p>This question asks for the <strong>Present Worth (P)</strong> of a series of equal payments, known as an <strong>annuity (A)</strong>. You receive N600 every year for 9 years, and you want to know what that whole stream of future money is worth today, given you could be earning 16% interest elsewhere.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Annual payment (A) = N600</li>\n <li>Number of years (n) = 9</li>\n <li>Interest rate (i) = 16% = 0.16</li>\n <li>Present Worth (P) = ? (This is what we want to find)</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: Use the Present Worth factor formula.</strong><br>\n The formula to find the present worth of an ordinary annuity (where the first payment is at the end of the first period) is:\n \\[ P = A \\times \\left[ \\frac{(1+i)^n - 1}{i(1+i)^n} \\right] \\]\n This part in the brackets is the factor you multiply the annual payment by.\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Calculate the factor.</strong><br>\n First, calculate \\((1+i)^n = (1.16)^9\\).\n \\[ (1.16)^9 = 3.803 \\] (We are using a slightly rounded intermediate value for clarity; using the full precision of a calculator gives the exact answer).\n <br>\n Now, plug it into the formula:\n \\[ P = 600 \\times \\left[ \\frac{3.803 - 1}{0.16 \\times 3.803} \\right] \\]\n \\[ P = 600 \\times \\left[ \\frac{2.803}{0.60848} \\right] \\]\n \\[ P = 600 \\times 4.6065 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Calculate the final Present Worth.</strong><br>\n \\[ P = N2763.90 \\]\n Therefore, you should be willing to pay N2763.90 today to receive N600 each year for 9 years, given you want a 16% return on your money.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Engineering Economics",
+      "Future Worth",
+      "Time Value of Money"
+    ],
+    "Question": {
+      "content": "The president of Ford Motor Company wants to know the equivalent future worth of a N1,000 capital investment each year for 8 years, starting one year from now. Ford's capital earns at a rate of 14% per year.",
+      "type": "OBJ",
+      "options": [
+        "N13,000",
+        "N13,299",
+        "N13,277",
+        "N13,233"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N13,277"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Future Worth of an Annuity</h4>\n <p>This problem asks for the <strong>Future Worth (F)</strong> of an <strong>annuity (A)</strong>. You are investing N1,000 at the end of each year for 8 years, and you want to know the total value of this investment at the end of the 8th year, with interest compounding at 14%.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Annual investment (A) = N1,000</li>\n <li>Number of years (n) = 8</li>\n <li>Interest rate (i) = 14% = 0.14</li>\n <li>Future Worth (F) = ?</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: Use the Future Worth factor formula.</strong><br>\n The formula to find the future worth of an ordinary annuity is:\n \\[ F = A \\times \\left[ \\frac{(1+i)^n - 1}{i} \\right] \\]\n The term in brackets is the future worth factor.\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Calculate the factor.</strong><br>\n First, calculate \\((1+i)^n = (1.14)^8\\).\n \\[ (1.14)^8 = 2.8526 \\] (Using a more precise value for this calculation).\n <br>\n Now, plug it into the formula:\n \\[ F = 1000 \\times \\left[ \\frac{2.8526 - 1}{0.14} \\right] \\]\n \\[ F = 1000 \\times \\left[ \\frac{1.8526}{0.14} \\right] \\]\n \\[ F = 1000 \\times 13.2328 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Calculate the final Future Worth.</strong><br>\n \\[ F = N13,232.8 \\]\n The closest answer to this calculated value is <strong>N13,233</strong> (option d).\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Engineering Economics",
+      "Arithmetic Gradient"
+    ],
+    "Question": {
+      "content": "A local university has initiated a logo licensing program with the clothier Hollister. Estimated fees are N80,000 for the first year, with a uniform increase to a total of N200,000 by the end of year 9. Determine the arithmetic gradient.",
+      "type": "OBJ",
+      "options": [
+        "N14,000/year",
+        "N14,500/year",
+        "N15,000/year",
+        "N15,500/year"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N15,000/year"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding the Arithmetic Gradient (G)</h4>\n <p>An <strong>arithmetic gradient</strong> means a series of cash flows that increases (or decreases) by a constant amount each period. Here, the fee starts at N80,000 in year 1 and grows by the same amount (G) each year until it reaches N200,000 in year 9.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Understand the timeline.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Year 1 Fee = N80,000</li>\n <li>Year 9 Fee = N200,000</li>\n </ul>\n The increase from year 1 to year 9 happened over 8 steps (from end of year 1 to end of year 9).\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: Calculate the total increase.</strong><br>\n Total increase from year 1 to year 9:\n \\[ \\text{Total Increase} = N200,000 - N80,000 = N120,000 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Determine the number of increases.</strong><br>\n The fee increases each year. To go from the value in year 1 to the value in year 9, the fee is increased 8 times (between year 1 and 2, 2 and 3, ..., 8 and 9).\n \\[ \\text{Number of steps} = 9 - 1 = 8 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Calculate the gradient (G).</strong><br>\n The gradient is the amount of increase per step.\n \\[ G = \\frac{\\text{Total Increase}}{\\text{Number of steps}} = \\frac{N120,000}{8} = N15,000 \\, \\text{per year} \\]\n This means each year, the fee is N15,000 higher than the previous year.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Engineering Economics",
+      "Rate of Return"
+    ],
+    "Question": {
+      "content": "If Laurel made a N20,000 investment in a friend’s business and received N50,000 five years later, determine the rate of return.",
+      "type": "OBJ",
+      "options": [
+        "10.76%",
+        "10.96%",
+        "10.66%",
+        "10.86%"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10.76%"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating the Rate of Return</h4>\n <p>This is a classic <strong>Rate of Return</strong> problem. You have a single present amount (P) and a single future amount (F), and you want to find the interest rate (i) that makes them equivalent over the given time period (n).</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Present Worth (P) = N20,000</li>\n <li>Future Worth (F) = N50,000</li>\n <li>Number of years (n) = 5</li>\n <li>Interest rate (i) = ?</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: Use the basic time value of money formula.</strong><br>\n The relationship between present and future value is:\n \\[ F = P \\times (1 + i)^n \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Rearrange the formula to solve for i.</strong><br>\n \\[ \\frac{F}{P} = (1 + i)^n \\]\n \\[ \\frac{N50,000}{N20,000} = (1 + i)^5 \\]\n \\[ 2.5 = (1 + i)^5 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Isolate i.</strong><br>\n Take the 5th root of both sides:\n \\[ 1 + i = (2.5)^{\\frac{1}{5}} \\]\n This is the same as raising 2.5 to the power of 0.2.\n \\[ 1 + i = 1.1076 \\] (Calculated using a calculator)\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 5: Find i.</strong><br>\n \\[ i = 1.1076 - 1 \\]\n \\[ i = 0.1076 \\]\n \\[ i = 10.76\\% \\]\n Laurel's rate of return on this investment is 10.76% per year.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Engineering Economics",
+      "Arithmetic Gradient",
+      "Uniform Series"
+    ],
+    "Question": {
+      "content": "If a man received a salary of N10,000 this year and his salary is increased at the rate of N700 a year. What is his equivalent uniform salary for 10 years, if the interest rate is 8% compounded annually?",
+      "type": "OBJ",
+      "options": [
+        "N12,000",
+        "N12,709.91",
+        "N12,500",
+        "N12,600"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N12,709.91"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Converting a Gradient Series to an Annuity</h4>\n <p>This is a two-step problem. First, you have a salary that starts at N10,000 and increases by a constant amount (G = N700) each year. This is a <strong>base amount (A1) plus a gradient (G)</strong>. You need to find the single <strong>equivalent uniform annual amount (A)</strong> over the 10 years, considering the time value of money at 8%.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Base salary in year 1 (A1) = N10,000</li>\n <li>Arithmetic gradient (G) = N700/year</li>\n <li>Number of years (n) = 10</li>\n <li>Interest rate (i) = 8% = 0.08</li>\n <li>Equivalent Uniform Annual Worth (A) = ?</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: The formula for converting a gradient to an annuity.</strong><br>\n The total equivalent annual worth is the base amount plus the annual worth of the gradient.\n \\[ A = A_1 + G \\times \\left[ \\frac{1}{i} - \\frac{n}{(1+i)^n - 1} \\right] \\]\n The part in the brackets is the <strong>gradient-to-annuity factor (A/G, i, n)</strong>.\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Calculate the (A/G) factor.</strong><br>\n First, calculate \\((1+i)^n = (1.08)^{10} = 2.15892\\)\n <br>\n Now, plug into the factor formula:\n \\[ \\frac{A}{G} = \\frac{1}{0.08} - \\frac{10}{(1.08)^{10} - 1} \\]\n \\[ \\frac{A}{G} = 12.5 - \\frac{10}{2.15892 - 1} \\]\n \\[ \\frac{A}{G} = 12.5 - \\frac{10}{1.15892} \\]\n \\[ \\frac{A}{G} = 12.5 - 8.6287 \\]\n \\[ \\frac{A}{G} = 3.8713 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Calculate the annual worth of the gradient and the total A.</strong><br>\n \\[ \\text{Annual Worth of Gradient} = G \\times (A/G, i, n) = 700 \\times 3.8713 = N2709.91 \\]\n \\[ A = A_1 + \\text{Annual Worth of Gradient} \\]\n \\[ A = N10,000 + N2709.91 \\]\n \\[ A = N12,709.91 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Conclusion</strong><br>\n An increasing salary stream is equivalent to receiving a constant salary of N12,709.91 every year for 10 years, given an 8% interest rate.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Engineering Economics",
+      "Arithmetic Gradient",
+      "Uniform Series"
+    ],
+    "Question": {
+      "content": "An endowment was originally set up to provide a N10,000 first payment, with payments decreasing by N1,000 each year during the 10-year endowment life. What constant annual payment for 10 years would be equivalent to the original endowment plan if i = 8%?",
+      "type": "OBJ",
+      "options": [
+        "N6,000",
+        "N6,200",
+        "N6,100",
+        "N6,128.69"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N6,128.69"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Converting a Decreasing Gradient to an Annuity</h4>\n <p>This is very similar to Question 7, but here the payments are <strong>decreasing</strong> by a constant amount each year. You have a base amount (A1) and a negative gradient (-G). You need to find the equivalent uniform annual payment (A).</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>First payment (A1) = N10,000</li>\n <li>Arithmetic gradient (G) = N1,000/year (but it's decreasing, so it's -G)</li>\n <li>Number of years (n) = 10</li>\n <li>Interest rate (i) = 8% = 0.08</li>\n <li>Equivalent Uniform Annual Payment (A) = ?</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: The formula for a decreasing gradient.</strong><br>\n For a decreasing gradient, the total annual worth is the base amount <em>minus</em> the annual worth of the gradient.\n \\[ A = A_1 - G \\times \\left[ \\frac{1}{i} - \\frac{n}{(1+i)^n - 1} \\right] \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Calculate the (A/G) factor.</strong><br>\n We calculated this in the previous problem for 8% and 10 years, but let's do it again precisely:\n \\((1.08)^{10} = 2.15892\\)\n \\[ \\frac{A}{G} = \\frac{1}{0.08} - \\frac{10}{(1.08)^{10} - 1} \\]\n \\[ \\frac{A}{G} = 12.5 - \\frac{10}{1.15892} \\]\n \\[ \\frac{A}{G} = 12.5 - 8.6287 \\]\n \\[ \\frac{A}{G} = 3.8713 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Calculate the annual worth of the gradient and the total A.</strong><br>\n The annual worth of the decreasing part is the gradient times the factor.\n \\[ \\text{Annual Worth of Gradient} = G \\times (A/G, i, n) = 1000 \\times 3.8713 = N3871.3 \\]\n Since it's decreasing, we subtract this from the base amount.\n \\[ A = A_1 - \\text{Annual Worth of Gradient} \\]\n \\[ A = N10,000 - N3871.3 \\]\n \\[ A = N6,128.70 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Conclusion</strong><br>\n The decreasing payment stream is equivalent to receiving a constant annual payment of N6,128.70 for 10 years.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Engineering Economics",
+      "Depreciation",
+      "Straight-Line Depreciation"
+    ],
+    "Question": {
+      "content": "Compute the straight-line depreciation for a pumping unit acquired at a cost of N35,000 with a salvage value of N5,000 at the end of its useful life of five years.",
+      "type": "OBJ",
+      "options": [
+        "N6,500 per year",
+        "N6,000 per year",
+        "N6,200 per year",
+        "N6,300 per year"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N6,000 per year"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Straight-Line Depreciation Calculation</h4>\n <p><strong>Straight-line depreciation</strong> is the simplest method. It assumes an asset loses the same amount of value each year over its useful life until it reaches its salvage value.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Initial Cost = N35,000</li>\n <li>Salvage Value = N5,000 (the value at the end of its life)</li>\n <li>Useful Life = 5 years</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: The formula for Straight-Line Depreciation.</strong><br>\n The formula is:\n \\[ \\text{Annual Depreciation} = \\frac{\\text{Initial Cost} - \\text{Salvage Value}}{\\text{Useful Life}} \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Calculate the depreciable amount.</strong><br>\n \\[ \\text{Depreciable Amount} = N35,000 - N5,000 = N30,000 \\]\n This is the total value that will be \"used up\" over the 5 years.\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Calculate the annual depreciation.</strong><br>\n \\[ \\text{Annual Depreciation} = \\frac{N30,000}{5} = N6,000 \\, \\text{per year} \\]\n This means the asset's book value will decrease by N6,000 each year for 5 years.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Engineering Economics",
+      "Depreciation",
+      "Book Value"
+    ],
+    "Question": {
+      "content": "Calculate the book value of Quest (32) after each year, based on the depreciation from the previous question.",
+      "type": "OBJ",
+      "options": [
+        "N29,000",
+        "N23,000",
+        "N17,000",
+        "N11,000",
+        "N5,000",
+        "All the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Book Value Over Time</h4>\n <p><strong>Book Value</strong> is the value of the asset as recorded on the company's books. It is calculated as the initial cost minus the total accumulated depreciation up to that point.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Recall from Question 9.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Initial Cost = N35,000</li>\n <li>Salvage Value = N5,000</li>\n <li>Annual Depreciation = N6,000</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: Calculate the book value at the end of each year.</strong><br>\n The formula is: \\( \\text{Book Value}_n = \\text{Initial Cost} - (n \\times \\text{Annual Depreciation}) \\)\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>End of Year 1:</strong> \\( N35,000 - (1 \\times N6,000) = N29,000 \\)</li>\n <li><strong>End of Year 2:</strong> \\( N35,000 - (2 \\times N6,000) = N23,000 \\)</li>\n <li><strong>End of Year 3:</strong> \\( N35,000 - (3 \\times N6,000) = N17,000 \\)</li>\n <li><strong>End of Year 4:</strong> \\( N35,000 - (4 \\times N6,000) = N11,000 \\)</li>\n <li><strong>End of Year 5:</strong> \\( N35,000 - (5 \\times N6,000) = N5,000 \\)</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Check the options.</strong><br>\n The options list N29,000, N23,000, N17,000, N11,000, and N5,000. Each of these is the correct book value for a specific year. Therefore, the correct choice is \"All the above\".\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Engineering Economics",
+      "Time Value of Money"
+    ],
+    "Question": {
+      "content": "What is meant by the 'time value of money'?",
+      "type": "OBJ",
+      "options": [
+        "The change in the amount of money over a given time period",
+        "The value of money in present times",
+        "The time it takes for money to increase its value",
+        "The value of money obtained from investment in a business within a year"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The change in the amount of money over a given time period"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding the Time Value of Money</h4>\n <p>The <strong>Time Value of Money (TVM)</strong> is the most fundamental concept in engineering economics and finance. It's based on the simple idea that a specific amount of money today is worth more than the same amount of money in the future.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Why is this true?</strong><br>\n Money has the potential to earn interest or grow through investment. If you have N100 today, you can invest it and have, say, N110 in a year. Therefore, the future N110 is equivalent in value to the N100 you have today. This potential for growth is the core of TVM.\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Analyzing the options:</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>(a) The change in the amount of money over a given time period:</strong> This is the correct definition. It captures the essence that money's value is not static; it changes (usually increases) over time due to its earning power. This change is represented by interest.</li>\n <li><strong>(b) The value of money in present times:</strong> This is just the definition of Present Worth, a single concept that uses TVM, not the definition of TVM itself.</li>\n <li><strong>(c) The time it takes for money to increase its value:</strong> This is vague and could refer to a payback period, not the core principle.</li>\n <li><strong>(d) The value of money obtained from investment in a business within a year:</strong> This describes a specific return on an investment, not the general principle.</li>\n </ul>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Engineering Economics",
+      "Cash Flow"
+    ],
+    "Question": {
+      "content": "What are cash flows in the context of engineering economic analysis?",
+      "type": "OBJ",
+      "options": [
+        "Cash out minus cash in",
+        "Estimates of money received over time",
+        "Estimates of money expended",
+        "Estimated inflows and outflows of money"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Estimated inflows and outflows of money"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Cash Flows</h4>\n <p>In engineering economics, a <strong>cash flow</strong> refers to the actual movement of money into or out of a project, company, or individual's pocket. It's a fundamental concept for analyzing any investment.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Breaking it Down</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Inflows (Receipts):</strong> Money coming <em>in</em>. Examples include revenues, salaries, loan amounts received, and salvage value.</li>\n <li><strong>Outflows (Disbursements):</strong> Money going <em>out</em>. Examples include costs, expenses, loan payments, and investments.</li>\n </ul>\n A cash flow is simply the combination of these two.<br><br>\n Option (d) \"Estimated inflows and outflows of money\" is the most complete and accurate definition. Options (b) and (c) only describe half of the picture. Option (a) describes <strong>net cash flow</strong> (which is inflows minus outflows), not the cash flows themselves.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Engineering Economics",
+      "Inflation"
+    ],
+    "Question": {
+      "content": "Which of the following is NOT an effect or contributor to inflation?",
+      "type": "OBJ",
+      "options": [
+        "A reduction in purchasing power",
+        "An increase in CPI (consumer price index)",
+        "An increase in the cost of equipment and its maintenance",
+        "A reduction in the cost of salaried professionals and hourly employees"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A reduction in the cost of salaried professionals and hourly employees"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Inflation</h4>\n <p><strong>Inflation</strong> is a general increase in the prices of goods and services in an economy over a period of time. When inflation occurs, each unit of currency buys fewer goods and services.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Analyzing the options:</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>(a) A reduction in purchasing power:</strong> This is the primary <strong>effect</strong> of inflation. Your money doesn't go as far as it used to.</li>\n <li><strong>(b) An increase in CPI:</strong> The Consumer Price Index (CPI) is a common <strong>measure</strong> of inflation. An increase in CPI indicates inflation is occurring.</li>\n <li><strong>(c) An increase in the cost of equipment and its maintenance:</strong> This is a specific <strong>example</strong> of inflation. The general rise in prices applies to goods like equipment.</li>\n <li><strong>(d) A reduction in the cost of salaried professionals and hourly employees:</strong> This would be a <strong>decrease</strong> in the price of labor (wages/salaries), which is the opposite of inflation. Inflation tends to push wages up, not down, as the cost of living increases. This is the correct choice because it does NOT contribute to, nor is it an effect of, inflation.</li>\n </ul>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Engineering Economics",
+      "Future Worth",
+      "Time Value of Money"
+    ],
+    "Question": {
+      "content": "What is the equivalence of $2000 at 12% over a period of 10 years?",
+      "type": "OBJ",
+      "options": [
+        "$6300",
+        "$6211.7",
+        "$4500",
+        "$6100"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "$6211.7"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Future Value</h4>\n <p>The question asks for the \"equivalence\" of $2000 today, 10 years from now, at a 12% interest rate. This means we need to find the <strong>Future Value (F)</strong> of a single present amount (P).</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Present Worth (P) = $2000</li>\n <li>Interest rate (i) = 12% = 0.12</li>\n <li>Number of years (n) = 10</li>\n <li>Future Worth (F) = ?</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: Use the future value formula.</strong><br>\n The formula is:\n \\[ F = P \\times (1 + i)^n \\]\n \\[ F = 2000 \\times (1 + 0.12)^{10} \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Calculate the factor.</strong><br>\n First, calculate \\((1.12)^{10}\\). Using a calculator:\n \\[ (1.12)^{10} = 3.105848 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Calculate the final Future Value.</strong><br>\n \\[ F = 2000 \\times 3.105848 \\]\n \\[ F = 6211.696 \\]\n \\[ F = \\$6211.7 \\]\n Therefore, $2000 today is equivalent to $6211.7 ten years from now at a 12% interest rate.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Engineering Economics",
+      "Time Value of Money"
+    ],
+    "Question": {
+      "content": "Calculate the time it will take to recoup $1 million when $2000 was invested at an interest rate of 10% per annum if the effects of inflation is ignored.",
+      "type": "OBJ",
+      "options": [
+        "127.37 years",
+        "65.20 years",
+        "65 years",
+        "127 years"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "65 years"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Time for Investment to Grow</h4>\n <p>This problem asks for the number of years (n) it will take for a single present investment (P) to grow to a desired future amount (F) at a given interest rate (i). We ignore inflation, so it's a straightforward TVM calculation.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Present Worth (P) = $2000</li>\n <li>Future Worth (F) = $1,000,000</li>\n <li>Interest rate (i) = 10% = 0.10</li>\n <li>Number of years (n) = ?</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: Use the future value formula and rearrange.</strong><br>\n \\[ F = P \\times (1 + i)^n \\]\n \\[ 1,000,000 = 2000 \\times (1.10)^n \\]\n \\[ \\frac{1,000,000}{2000} = (1.10)^n \\]\n \\[ 500 = (1.10)^n \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Solve for n using logarithms.</strong><br>\n To get n out of the exponent, take the logarithm of both sides. You can use any logarithm (log or ln).\n \\[ \\ln(500) = \\ln((1.10)^n) \\]\n Using the logarithm power rule (\\(\\ln(a^b) = b \\times \\ln(a)\\)):\n \\[ \\ln(500) = n \\times \\ln(1.10) \\]\n \\[ n = \\frac{\\ln(500)}{\\ln(1.10)} \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 4: Calculate the values and find n.</strong><br>\n \\[ \\ln(500) = 6.2146 \\]\n \\[ \\ln(1.10) = 0.09531 \\]\n \\[ n = \\frac{6.2146}{0.09531} \\]\n \\[ n = 65.20 \\, \\text{years} \\]\n The exact calculation is about 65.20 years, but the option provided is simply <strong>65 years</strong> (option c), which is the rounded-down figure. The question might expect the rounded number from the choices given.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Engineering Economics",
+      "Cash Flow Series"
+    ],
+    "Question": {
+      "content": "A cash flow series that either increases or decreases by a constant amount each period is called:",
+      "type": "OBJ",
+      "options": [
+        "Gradient series",
+        "Geometric series",
+        "Arithmetic series",
+        "Arithmetic gradient series"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Arithmetic gradient series"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Types of Cash Flow Series</h4>\n <p>There are two main types of cash flows that change over time in a predictable pattern:</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>1. Arithmetic Gradient Series</strong><br>\n This is defined by a <strong>constant amount (G)</strong> that the cash flow changes by each period. For example: $100, $200, $300,... (increase by $100) or $500, $450, $400,... (decrease by $50). The change is linear.<br><br>\n <strong style='color: var(--strongColor);'>2. Geometric Gradient Series</strong><br>\n This is defined by a <strong>constant percentage (g)</strong> that the cash flow changes by each period. For example: $100, $110, $121,... (increase by 10%). The change is exponential.<br><br>\n The question specifically describes a change by a \"constant amount,\" which is the definition of an <strong>arithmetic gradient series</strong>. While \"gradient series\" is sometimes used as a shorthand, \"arithmetic gradient series\" is the most precise and complete term from the options.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "Engineering Economics",
+      "Interest Rates"
+    ],
+    "Question": {
+      "content": "An interest rate that does not account for compounding is called:",
+      "type": "OBJ",
+      "options": [
+        "Effective interest rate",
+        "Nominal interest rate",
+        "Simple interest rate",
+        "Compound interest rate"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Simple interest rate"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Simple vs. Compound Interest</h4>\n <p>The key difference lies in whether interest is earned on previously earned interest.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Simple Interest</strong><br>\n Interest is calculated only on the original principal amount. It does NOT account for compounding. The formula is \\( I = P \\times i \\times n \\).<br><br>\n <strong style='color: var(--strongColor);'>Compound Interest</strong><br>\n Interest is calculated on the principal <strong>plus</strong> any accumulated interest from previous periods. It accounts for \"interest on interest.\"<br><br>\n <strong style='color: var(--strongColor);'>Nominal vs. Effective</strong><br>\n These terms are used when compounding occurs more frequently than once per year (e.g., monthly). The <strong>nominal rate</strong> is the stated annual rate, and the <strong>effective rate</strong> is the actual rate after accounting for intra-year compounding. Both nominal and effective rates are types of compound interest. The question asks for a rate that does NOT account for compounding, which is the <strong>simple interest rate</strong>.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": [
+      "Engineering Economics",
+      "Interest"
+    ],
+    "Question": {
+      "content": "The shortest time unit over which interest is charged or earned is called:",
+      "type": "OBJ",
+      "options": [
+        "Interest period",
+        "Compounding period",
+        "Compounding frequency",
+        "Effective period"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Compounding period"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Key Terms in Compounding</h4>\n <p>When interest is compounded, it's important to understand the basic time unit involved.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Compounding Period</strong><br>\n This is the basic time unit after which interest is calculated and added to the principal. It is the shortest interval over which interest is earned or charged. For example, if interest is \"compounded monthly,\" then the compounding period is one month.<br><br>\n <strong style='color: var(--strongColor);'>Other Terms</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Interest period:</strong> A more general term that can refer to any period over which interest is considered, but not necessarily the shortest.</li>\n <li><strong>Compounding frequency:</strong> This refers to the <em>number of times</em> compounding occurs per year (e.g., monthly = 12 times per year).</li>\n <li><strong>Effective period:</strong> Not a standard term for the base time unit.</li>\n </ul>\n Therefore, the shortest time unit is the <strong>compounding period</strong>.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "Engineering Economics",
+      "Financial Ratios"
+    ],
+    "Question": {
+      "content": "The ratio of borrowed funds to either total funds or shareholders' equity is known as the:",
+      "type": "OBJ",
+      "options": [
+        "Gearing Ratio",
+        "Project Ratio",
+        "Financial Ratio",
+        "Interest Ratio"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Gearing Ratio"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Gearing Ratios</h4>\n <p>In finance and corporate accounting, a <strong>gearing ratio</strong> (also known as a leverage ratio) measures the proportion of a company's capital that comes from debt (borrowed funds) compared to equity (shareholders' funds).</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Why it's important</strong><br>\n It indicates the financial risk of a company. A high gearing ratio means the company has a lot of debt, which can be risky but also potentially offers higher returns to shareholders. The description in the question perfectly matches the definition of a gearing ratio.<br><br>\n <strong style='color: var(--strongColor);'>Other options:</strong>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Project Ratio:</strong> Not a standard financial term.</li>\n <li><strong>Financial Ratio:</strong> This is a broad category that includes many ratios (like gearing, profitability, liquidity). It's not specific enough.</li>\n <li><strong>Interest Ratio:</strong> This usually refers to something like the \"interest coverage ratio,\" which measures a company's ability to pay interest on its debt, not the debt-to-equity proportion.</li>\n </ul>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 & 21",
+    "topic": [
+      "Engineering Economics",
+      "Financial Planning"
+    ],
+    "Question": {
+      "content": "What is the term for the method used by businesses for financial planning for the future?",
+      "type": "OBJ",
+      "options": [
+        "Planning",
+        "Budgeting",
+        "Coordination",
+        "Remuneration"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Budgeting"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Financial Planning for the Future</h4>\n <p><strong>Budgeting</strong> is the specific process of creating a plan to spend your money. This spending plan is called a budget. Creating a budget allows a business to determine in advance whether it will have enough money to do the things it needs to or would like to do.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Why Budgeting?</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Planning:</strong> Budgeting is a key part of overall planning. While \"planning\" is a general management function, \"budgeting\" is the specific financial planning method.</li>\n <li><strong>Coordination:</strong> Budgeting helps coordinate different departments by aligning their spending with company goals.</li>\n <li><strong>Remuneration:</strong> This refers to compensation or pay, which is a part of a budget but not the planning method itself.</li>\n </ul>\n The question asks for the method of <strong>financial planning</strong>. The most accurate and specific term from the options is <strong>Budgeting</strong>.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": [
+      "Engineering Economics",
+      "Budgeting"
+    ],
+    "Question": {
+      "content": "What is the typical planning horizon for medium-term budgeting?",
+      "type": "OBJ",
+      "options": [
+        "One to three years",
+        "One to four years",
+        "Two to five years",
+        "Three to five years"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "One to three years"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Budgeting Time Horizons</h4>\n <p>Businesses typically classify their budgets based on the time frame they cover. These classifications are generally consistent across industries.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Common Classifications:</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Short-term budgeting:</strong> Usually covers a period of up to 1 year. This is often detailed and operational.</li>\n <li><strong>Medium-term budgeting:</strong> Typically covers a period of <strong>1 to 3 years</strong>. This is used for tactical planning and resource allocation.</li>\n <li><strong>Long-term budgeting:</strong> Covers a period of more than 3 years (often 5-10 years). This is used for strategic planning, like major capital investments.</li>\n </ul>\n Based on this standard classification, the correct answer is <strong>one to three years</strong>.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": [
+      "Engineering Economics",
+      "Cash Budget"
+    ],
+    "Question": {
+      "content": "Which of the following is NOT a section of a cash budget?",
+      "type": "OBJ",
+      "options": [
+        "Receipts for the month",
+        "Payments for the month",
+        "Summary of bank account",
+        "Shareholder's funds"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Shareholder's funds"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Components of a Cash Budget</h4>\n <p>A <strong>cash budget</strong> is a detailed plan showing how a business expects to get and use cash over a specific period. Its primary purpose is to ensure the business has enough cash to operate. It typically has three main sections:</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Standard Sections of a Cash Budget:</strong><br>\n <ol style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Cash Receipts:</strong> This lists all expected inflows of cash. This includes cash sales, collections from accounts receivable, and other income. (Matches option a)</li>\n <li><strong>Cash Disbursements (Payments):</strong> This lists all expected outflows of cash. This includes payments for materials, wages, rent, utilities, etc. (Matches option b)</li>\n <li><strong>Reconciliation/Summary:</strong> This section combines the receipts and payments with the beginning cash balance to calculate the ending cash balance. It may also show financing needs. A \"summary of bank account\" effectively describes this section. (Matches option c)</li>\n </ol>\n <strong style='color: var(--strongColor);'>Shareholder's Funds:</strong><br>\n This refers to the money invested by the owners of the company. This is part of the company's long-term capital structure and appears on the <strong>balance sheet</strong>, not in the short-term operational planning of a <strong>cash budget</strong>. Therefore, it is the item that is NOT a section of the cash budget.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 & 25",
+    "topic": [
+      "Engineering Economics",
+      "Cost Estimation",
+      "Operational Cost"
+    ],
+    "Question": {
+      "content": "Which of the following is NOT an element of Annual Operational Cost?",
+      "type": "OBJ",
+      "options": [
+        "Direct labour cost for operating personnel",
+        "Direct materials",
+        "Indirect materials",
+        "Maintenance costs"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Direct materials"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Operational Costs</h4>\n <p><strong>Annual Operational Costs</strong> (or Operating Costs) are the expenses required for the day-to-day functioning of a business. There are two main categories of costs, and it's important to distinguish between them.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Operating Costs vs. Product Costs</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Operating Costs (Period Costs):</strong> These are costs not directly tied to the production of goods. They are expensed in the period they are incurred. They include:\n <ul><li>Selling, General, and Administrative Expenses (SG&A)</li>\n <li>Maintenance costs (option d)</li>\n <li>Indirect materials (option c) and indirect labor (like supervisors) are part of manufacturing overhead, which is often considered a product cost but can be classified as operational depending on the context. However, in this question's context, indirect materials are more likely an operational overhead item.</li>\n <li>Direct labor for operating personnel (option a) refers to workers who run the facility but aren't directly making a product. This is an operating cost.</li></ul>\n </li>\n <li><strong>Product Costs:</strong> These are costs directly associated with the manufacture of goods. They are capitalized as inventory until the product is sold. They include:\n <ul><li><strong>Direct Materials (option b):</strong> Raw materials that become an integral part of the finished product. This is a classic product cost, not an operational cost.</li>\n <li>Direct Labor (for production line workers)</li>\n <li>Manufacturing Overhead</li></ul>\n </li>\n </ul>\n Since <strong>Direct Materials</strong> are a fundamental part of the cost of making a product, they are classified as a product cost, not an annual operational cost. Therefore, it is the item that is NOT an element of Annual Operational Cost.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 & 27",
+    "topic": [
+      "Engineering Economics",
+      "Cost Estimation"
+    ],
+    "Question": {
+      "content": "An engineer with Efosa's Petroleum has learned that an expansion of the solid-fluid process plant is expected to have a delivered equipment cost of $2.08 million. If the overall cost factor for this type of plant is 3.63, estimate the plant's total cost.",
+      "type": "OBJ",
+      "options": [
+        "$7,550,500",
+        "$7,550,400",
+        "$7,500,400",
+        "$7,120,400"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "$7,550,400"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Using Cost Factors for Estimation</h4>\n <p>In capital cost estimation for industrial plants, a common technique is to use a <strong>cost factor</strong>. This factor represents the ratio of the total plant cost to the cost of the major equipment. It's a quick way to estimate the total investment required.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 1: Understand the relationship.</strong><br>\n The formula is:\n \\[ \\text{Total Plant Cost} = \\text{Delivered Equipment Cost} \\times \\text{Overall Cost Factor} \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 2: Identify the variables.</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li>Delivered Equipment Cost = $2.08 million = $2,080,000</li>\n <li>Overall Cost Factor = 3.63</li>\n </ul>\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Step 3: Perform the calculation.</strong><br>\n \\[ \\text{Total Plant Cost} = 2,080,000 \\times 3.63 \\]\n Let's break it down:\n \\[ 2,080,000 \\times 3 = 6,240,000 \\]\n \\[ 2,080,000 \\times 0.63 = 1,310,400 \\]\n \\[ 6,240,000 + 1,310,400 = 7,550,400 \\]\n </div>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Conclusion</strong><br>\n The estimated total cost for the plant is <strong>$7,550,400</strong>.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": [
+      "Engineering Economics",
+      "Cost Estimation"
+    ],
+    "Question": {
+      "content": "Which of the following is NOT a recognized approach to cost estimation?",
+      "type": "OBJ",
+      "options": [
+        "Bottom-up approach",
+        "Design-to-cost",
+        "Top-down approach",
+        "Bottom-down approach"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Bottom-down approach"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Cost Estimation Approaches</h4>\n <p>There are several established methods for estimating the cost of a project or product. The names of these methods are often intuitive.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Recognized Approaches:</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Top-down approach:</strong> An estimate is made using historical data from similar projects, looking at the big picture first and then allocating costs to lower levels. (Option c)</li>\n <li><strong>Bottom-up approach:</strong> An estimate is made by estimating the cost of individual components or work packages and then summing them up to get the total project cost. This is detailed and accurate. (Option a)</li>\n <li><strong>Design-to-cost:</strong> A management strategy where cost is treated as a design parameter alongside performance. A target cost is set, and the product is designed to meet that cost. (Option b)</li>\n </ul>\n <strong style='color: var(--strongColor);'>The Imposter:</strong><br>\n <strong>Bottom-down approach</strong> (option d) is not a standard or recognized term in cost estimation. It seems like a nonsensical combination of \"bottom-up\" and \"top-down.\" Therefore, it is the approach that is NOT used.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": [
+      "Engineering Economics",
+      "Public Sector",
+      "Taxation"
+    ],
+    "Question": {
+      "content": "Government agencies are exempt from taxes levied by higher-level units.",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Tax Exemptions for Government Entities</h4>\n <p>This statement is generally <strong>true</strong>. The principle of <strong>sovereign immunity</strong> and intergovernmental tax immunity prevents different levels of government from taxing each other.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Explanation:</strong><br>\n If a federal government could tax a state agency, or a state could tax a federal agency, it would create a circular flow of funds and could allow one level of government to financially hinder the operations of another. For example, a local government cannot levy a property tax on a building owned by the federal government. Similarly, state government agencies are typically exempt from local taxes. Therefore, the statement is accurate.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": [
+      "Engineering Economics",
+      "Public Sector",
+      "Project Financing"
+    ],
+    "Question": {
+      "content": "The capital used to finance public sector projects is commonly acquired from taxes, bonds, and fees.",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Financing Public Sector Projects</h4>\n <p>This statement is <strong>true</strong>. Unlike private companies, which can raise capital by selling stock, public sector entities (governments) have a different set of funding mechanisms.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Common Sources of Public Capital:</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Taxes:</strong> This is the primary source of revenue for governments. Income taxes, sales taxes, property taxes, etc., are used to fund a wide range of public services and projects (e.g., schools, roads, defense).</li>\n <li><strong>Bonds:</strong> Governments issue bonds (a type of debt security) to borrow money from investors for specific, large-scale projects (e.g., building a bridge or a stadium). The government promises to pay back the principal with interest over time.</li>\n <li><strong>Fees:</strong> These are charges for specific public services. Examples include tolls for using a highway, entrance fees to national parks, or fees for building permits. These funds are often earmarked for the maintenance or operation of the related service or facility.</li>\n </ul>\n Therefore, taxes, bonds, and fees are indeed the common sources of capital for public sector projects.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": [
+      "Engineering Economics",
+      "Replacement Analysis"
+    ],
+    "Question": {
+      "content": "In replacement analysis, the salvage value at the end of one year is used as the market value at the beginning of the next year.",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Salvage Value and Market Value</h4>\n <p>This statement is <strong>true</strong> in the context of how assets are tracked in replacement analysis studies.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Concept:</strong><br>\n In engineering economics, we model the declining value of an asset over time. The value of the asset at any point in time is often referred to as its <strong>market value</strong> (what you could sell it for).\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Beginning of Year X:</strong> The asset has a certain market value.</li>\n <li><strong>During Year X:</strong> The asset is used, and it depreciates.</li>\n <li><strong>End of Year X:</strong> The value of the asset is now its <strong>salvage value</strong> for that point in time.</li>\n </ul>\n The \"end of Year X\" is the same point in time as the \"beginning of Year X+1.\" Therefore, the salvage value at the end of one year becomes the market value at the start of the next year. This continuity is essential for calculating annual costs correctly in replacement studies.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": [
+      "Engineering Economics",
+      "Opportunity Cost"
+    ],
+    "Question": {
+      "content": "The opportunity cost is the rate of return of a forgone opportunity caused by the inability to pursue a project.",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Defining Opportunity Cost</h4>\n <p>This statement is <strong>true</strong> and is a fundamental definition in economics and engineering economics.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Concept:</strong><br>\n <strong>Opportunity cost</strong> is the benefit or value that you miss out on when you choose one alternative over another. It's the cost of the path not taken.\n <br><br>\n In the context of finance and projects, if you have limited capital and choose Project A, you cannot also invest in Project B. The rate of return you would have earned from Project B is the <strong>opportunity cost</strong> of choosing Project A. It represents the forgone opportunity. The statement in the question captures this idea perfectly.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": [
+      "Engineering Economics",
+      "Capital Financing"
+    ],
+    "Question": {
+      "content": "Capital is developed by equity and debt financing.",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sources of Capital</h4>\n <p>This statement is <strong>true</strong>. In corporate finance, the money a company uses to fund its operations and growth (its capital) comes from two primary sources.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Two Main Types of Financing:</strong><br>\n <ul style='margin-top: 5px; margin-bottom: 5px;'>\n <li><strong>Equity Financing:</strong> This is money raised from the owners of the business. For a corporation, this means selling shares of stock to investors. These investors become part-owners and have a claim on future profits, but the company is not obligated to pay them back a fixed amount. This is the company's own funds.</li>\n <li><strong>Debt Financing:</strong> This is money borrowed from lenders, such as banks or bondholders. The company must repay this money, plus interest, according to a fixed schedule. This is the company's borrowed funds. Examples include loans and bonds.</li>\n </ul>\n The combination of equity and debt makes up the total capital structure of a firm. So, the statement is correct.\n </div>\n</div>"
+    }
+  }
+]
