@@ -1,0 +1,293 @@
+[
+  
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "General Biohemistry I",
+    "code": "BCH 210.1",
+    "session": "2019/2020",
+    "topics": ["Flow Measurement", "Fluid Mechanics", "Laboratory Techniques", "Calibration", "Measurement Accuracy", "Fluid Properties", "Installation Best Practices", "Instrumentation", "Pressure Measurement", "Noise Reduction", "Experimentation", "Reynolds Number", "Flow Regimes", "Instrument Selection", "Engineering Design"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  
+
+  
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Flow Measurement",
+      "Fluid Mechanics",
+      "Laboratory Techniques"
+    ],
+    "Question": {
+      "content": "Which of the following is NOT a primary objective of a flowmeter experiment?",
+      "type": "OBJ",
+      "options": [
+        "Determine the flow rate of a fluid.",
+        "Investigate the relationship between flow rate and pressure drop.",
+        "Measure the viscosity of the fluid.",
+        "Calibrate the flowmeter for accurate readings."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Measure the viscosity of the fluid."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Flowmeter Experiment Objectives</h4>\n <p>A flowmeter experiment focuses on measuring and understanding fluid flow. While flow rate, pressure drop, and calibration are key, viscosity is typically measured in a separate experiment (e.g., using a viscometer).</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Primary Objectives:</strong>\n <ul>\n <li><strong>Determine Flow Rate:</strong> The main goal is to measure how much fluid passes a point per unit time.</li>\n <li><strong>Investigate Pressure Drop:</strong> To see how pressure changes as fluid flows through a constriction or meter.</li>\n <li><strong>Calibrate the Flowmeter:</strong> To create a relationship between the meter's reading and the actual flow rate.</li>\n </ul>\n </div>\n <div>\n <strong style='color: var(--strongColor);'>Why Not Viscosity?</strong><br>\n While fluid viscosity can affect flowmeter readings, measuring it is not the experiment's primary purpose. Viscosity is a fluid property, while the flowmeter experiment is about the meter's performance.<br>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>Measure the viscosity of the fluid.</span>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Flow Measurement",
+      "Calibration",
+      "Laboratory Techniques"
+    ],
+    "Question": {
+      "content": "What is the primary purpose of a calibration curve in a flowmeter experiment?",
+      "type": "OBJ",
+      "options": [
+        "To determine the fluid density.",
+        "To relate flowmeter readings to actual flow rate.",
+        "To calculate the Reynolds number.",
+        "To measure the pressure difference across the flowmeter."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To relate flowmeter readings to actual flow rate."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Role of a Calibration Curve</h4>\n <p>A calibration curve is like a translator. It converts the raw reading from a flowmeter (like a voltage, pressure difference, or float position) into a meaningful and accurate flow rate.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Simple Analogy:</strong> Imagine a thermometer. If the mercury rises to a certain height, the calibration curve (the scale on the thermometer) tells you the temperature. A flowmeter's calibration curve does the same for flow rate.\n </div>\n <div>\n <strong style='color: var(--strongColor);'>Why It's Important:</strong>\n <ul>\n <li>Without it, you just have a signal (e.g., 5 volts). With it, you know that 5 volts equals 10 liters per minute.</li>\n <li>It accounts for the specific meter's design and the fluid's properties.</li>\n </ul>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>To relate flowmeter readings to actual flow rate.</span>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Flow Measurement",
+      "Measurement Accuracy",
+      "Fluid Properties"
+    ],
+    "Question": {
+      "content": "Which of the following factors can significantly influence the accuracy of a flowmeter measurement?",
+      "type": "OBJ",
+      "options": [
+        "Fluid temperature",
+        "Ambient temperature",
+        "Barometric pressure",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Factors Affecting Flowmeter Accuracy</h4>\n <p>Flowmeter accuracy is sensitive to the environment and fluid conditions. All the listed factors play a role.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>How Each Factor Impacts Accuracy:</strong>\n <ul>\n <li><strong>Fluid Temperature:</strong> Changes the fluid's density and viscosity, which can alter how the flowmeter responds.</li>\n <li><strong>Ambient Temperature:</strong> Can cause the flowmeter's internal components to expand or contract, changing their calibration.</li>\n <li><strong>Barometric Pressure:</strong> Affects the pressure of the fluid, especially in gas flow measurements, which are highly compressible.</li>\n </ul>\n </div>\n <div>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>All of the above.</span> A good experiment accounts for or controls these factors to ensure reliable results.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Flow Measurement",
+      "Installation Best Practices",
+      "Measurement Accuracy"
+    ],
+    "Question": {
+      "content": "Why is it important to ensure proper installation of a flowmeter?",
+      "type": "OBJ",
+      "options": [
+        "To prevent cavitation.",
+        "To minimize measurement errors and ensure accurate readings.",
+        "To reduce pressure losses.",
+        "To improve fluid flow stability."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To minimize measurement errors and ensure accurate readings."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Critical Importance of Proper Installation</h4>\n <p>Installing a flowmeter isn't just about plumbing. The way it's placed in the pipe system directly affects its ability to give a correct reading.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Key Installation Principles:</strong>\n <ul>\n <li><strong>Straight Pipe Runs:</strong> Many flowmeters require straight pipe sections before and after them to ensure the flow profile is fully developed and stable. If you install it right after a bend, the swirling flow will cause large errors.</li>\n <li><strong>Correct Orientation:</strong> Some meters (like turbine or vortex meters) are sensitive to orientation and must be installed horizontally or vertically as specified.</li>\n <li><strong>No Leaks:</strong> Leaks not only lose fluid but also disrupt the pressure and flow patterns the meter relies on.</li>\n </ul>\n </div>\n <div>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>To minimize measurement errors and ensure accurate readings.</span> While the other options can be consequences, the primary goal is accuracy.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Flow Measurement",
+      "Instrumentation",
+      "Pressure Measurement"
+    ],
+    "Question": {
+      "content": "What is the primary function of a differential pressure transmitter in a flowmeter setup?",
+      "type": "OBJ",
+      "options": [
+        "To measure fluid temperature.",
+        "To measure the pressure difference across the flowmeter.",
+        "To control the flow rate.",
+        "To calculate the Reynolds number."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To measure the pressure difference across the flowmeter."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Role of a Differential Pressure (DP) Transmitter</h4>\n <p>Many common flowmeters, like orifice plates, Venturi meters, and flow nozzles, work by creating a pressure drop. The DP transmitter is the device that accurately measures that pressure drop.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>How It Works:</strong>\n <ul>\n <li>It connects to two pressure taps: one upstream (high pressure) and one downstream (low pressure).</li>\n <li>It converts the mechanical pressure difference into a standard electrical signal (e.g., 4-20 mA) that can be read by a computer or display.</li>\n <li>This signal, combined with a calibration curve, is then used to determine the flow rate.</li>\n </ul>\n <strong>Analogy:</strong> It's like the \"pressure gauge\" that tells you how much the flow is being choked by the meter.\n </div>\n <div>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>To measure the pressure difference across the flowmeter.</span>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Measurement Accuracy",
+      "Instrumentation",
+      "Noise Reduction"
+    ],
+    "Question": {
+      "content": "How can you minimize the effects of vibration on flowmeter readings?",
+      "type": "OBJ",
+      "options": [
+        "Isolating the flowmeter from vibrations.",
+        "Increasing the flow rate.",
+        "Reducing the fluid temperature.",
+        "Using a larger diameter pipe."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Isolating the flowmeter from vibrations."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Combating Vibration in Flow Measurements</h4>\n <p>Vibration is a form of mechanical noise that can interfere with a flowmeter's internal sensors, especially in meters with moving parts (like turbine meters) or sensitive electronics (like Coriolis or ultrasonic meters).</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Effective Strategies:</strong>\n <ul>\n <li><strong>Vibration Isolators:</strong> Using flexible pipe connections (e.g., rubber bellows) and mounting the flowmeter on vibration-damping pads decouples it from the shaking of nearby pumps, compressors, or the pipe itself.</li>\n <li><strong>Rigid Support:</strong> Properly supporting the piping to prevent resonance or excessive movement.</li>\n </ul>\n </div>\n <div>\n <strong style='color: var(--strongColor);'>Why the other options are not effective:</strong><br>\n Changing flow rate, temperature, or pipe diameter does not address the root cause of the vibration. It might even change the flow regime, introducing more errors.\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>Isolating the flowmeter from vibrations.</span>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Laboratory Techniques",
+      "Experimentation",
+      "Flow Measurement"
+    ],
+    "Question": {
+      "content": "What is the purpose of conducting a flowmeter experiment in a laboratory setting?",
+      "type": "OBJ",
+      "options": [
+        "To test the flowmeter's performance under real-world conditions.",
+        "To provide a controlled environment for accurate measurements and data analysis.",
+        "To simulate industrial flow conditions.",
+        "To determine the cost-effectiveness of different flowmeter types."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To provide a controlled environment for accurate measurements and data analysis."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Value of a Laboratory Experiment</h4>\n <p>A laboratory setting is designed for learning and fundamental understanding. It strips away the complexities and unpredictability of a real-world industrial plant.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Key Benefits of a Lab Setup:</strong>\n <ul>\n <li><strong>Controlled Conditions:</strong> Temperature, pressure, flow rate, and fluid type can be precisely set and maintained.</li>\n <li><strong>Known Standards:</strong> A reference flowmeter (like a calibrated rotameter or volumetric tank) is used to establish the \"true\" flow rate, against which the test meter is compared.</li>\n <li><strong>Focused Analysis:</strong> Allows students to isolate and study specific principles (like the relationship between pressure drop and flow rate) without interference from external factors.</li>\n </ul>\n </div>\n <div>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>To provide a controlled environment for accurate measurements and data analysis.</span> This allows for the creation of reliable calibration curves and a deep understanding of the meter's principles.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Calibration",
+      "Measurement Accuracy",
+      "Laboratory Techniques"
+    ],
+    "Question": {
+      "content": "Which of the following is a common method for verifying the accuracy of a flowmeter?",
+      "type": "OBJ",
+      "options": [
+        "Comparison with a known standard flowmeter.",
+        "Theoretical calculations.",
+        "Visual inspection.",
+        "Fluid density measurements."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Comparison with a known standard flowmeter."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>How to Verify Flowmeter Accuracy</h4>\n <p>To know if a flowmeter is accurate, you must compare its reading to a measurement of known and higher accuracy. This is the essence of calibration and verification.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Comparison Method:</strong>\n <ul>\n <li><strong>Reference Standard:</strong> This is a device or method with a known, traceable accuracy (e.g., a master flowmeter that is regularly calibrated, or a \"weighing tank\" that measures the mass of fluid collected over a precise time).</li>\n <li><strong>Side-by-Side Testing:</strong> Both the test meter and the reference standard are installed in the same flow line. By comparing their readings across a range of flow rates, you can see how much the test meter deviates.</li>\n </ul>\n </div>\n <div>\n <strong style='color: var(--strongColor);'>Why Other Methods Fail:</strong>\n <ul>\n <li>Theoretical calculations are too idealized and don't account for real-world imperfections.</li>\n <li>Visual inspection can only detect gross physical damage, not subtle inaccuracies.</li>\n <li>Density measurements are relevant for mass flow, but don't directly verify the meter's volumetric or mass flow reading.</li>\n </ul>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>Comparison with a known standard flowmeter.</span>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Fluid Mechanics",
+      "Reynolds Number",
+      "Flow Regimes"
+    ],
+    "Question": {
+      "content": "How does the Reynolds number affect the flow characteristics and flowmeter readings?",
+      "type": "OBJ",
+      "options": [
+        "It influences the flow regime (laminar, turbulent) and can impact measurement accuracy.",
+        "It directly determines the flow rate.",
+        "It has no significant effect on flowmeter readings.",
+        "It is only relevant for compressible fluids."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "It influences the flow regime (laminar, turbulent) and can impact measurement accuracy."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Importance of Reynolds Number</h4>\n <p>The Reynolds number is a dimensionless value that predicts whether the fluid flow will be smooth and orderly (laminar) or chaotic and mixing (turbulent). This has a profound effect on how flowmeters behave.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Mathematical Definition:</strong>\n \\[ Re = \\frac{\\rho v D}{\\mu} \\]\n <ul>\n <li>\\( \\rho \\) = Density of fluid</li>\n <li>\\( v \\) = Average flow velocity</li>\n <li>\\( D \\) = Pipe diameter</li>\n <li>\\( \\mu \\) = Dynamic viscosity of fluid</li>\n </ul>\n </div>\n <div>\n <strong style='color: var(--strongColor);'>Impact on Flowmeters:</strong>\n <ul>\n <li><strong>Laminar Flow (Re < 2000):</strong> The velocity profile is parabolic. Some flowmeters (like orifice plates) have non-linear behavior in this regime, requiring special calibration. Turbine meters may not work well.</li>\n <li><strong>Turbulent Flow (Re > 4000):</strong> The velocity profile is flatter, which is what most flowmeters are designed for, giving them a more consistent and predictable response.</li>\n <li><strong>Transitional Flow (2000 < Re < 4000):</strong> This is an unstable region where readings can fluctuate, and measurement accuracy is poor.</li>\n </ul>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>It influences the flow regime (laminar, turbulent) and can impact measurement accuracy.</span>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Flow Measurement",
+      "Instrument Selection",
+      "Engineering Design"
+    ],
+    "Question": {
+      "content": "What is the significance of understanding the limitations of a specific flowmeter type?",
+      "type": "OBJ",
+      "options": [
+        "To select the most appropriate flowmeter for a given application.",
+        "To avoid costly repairs.",
+        "To comply with safety regulations.",
+        "To simplify the installation process."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To select the most appropriate flowmeter for a given application."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Why Knowing Limitations is Crucial</h4>\n <p>No single flowmeter works perfectly for every job. Each type has inherent strengths and weaknesses. Understanding these limitations is the key to successful engineering design and reliable operation.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Examples of Limitations:</strong>\n <ul>\n <li><strong>Orifice Plate:</strong> Simple and cheap, but causes a permanent pressure loss and is not suitable for viscous or dirty fluids.</li>\n <li><strong>Magnetic Flowmeter:</strong> Excellent for conductive liquids, but cannot measure hydrocarbons, gases, or steam.</li>\n <li><strong>Turbine Flowmeter:</strong> Very accurate for clean, lubricating liquids, but can be damaged by solids or low-flow conditions.</li>\n <li><strong>Coriolis Flowmeter:</strong> Highly accurate and measures mass flow directly, but is expensive and sensitive to vibration.</li>\n </ul>\n </div>\n <div>\n <strong style='color: var(--strongColor);'>The Selection Process:</strong>\n <p>Engineers match the meter's capabilities to the application's requirements (fluid type, flow range, required accuracy, pressure, temperature, budget, etc.). Choosing the wrong type can lead to inaccurate data, frequent maintenance, or complete failure.</p>\n <strong>Answer:</strong> <span style='color: var(--strongColor);'>To select the most appropriate flowmeter for a given application.</span>\n </div>\n</div>"
+    }
+  }
+]
