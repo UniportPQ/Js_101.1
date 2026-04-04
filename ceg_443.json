@@ -1,4 +1,17 @@
 [
+  {   "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Calculus Primer",
+    "code": "ENG 402.1",
+    "session": "test Predicted",
+    "topics": ["Engineering Economics", "Decision Making", "Measures of Worth", "Present Worth", "Time Value of Money", "Future Worth", "Arithmetic Gradient", "Rate of Return", "Uniform Series", "Depreciation", "Straight-Line Depreciation", "Book Value", "Cash Flow", "Inflation", "Cash Flow Series", "Interest Rates", "Interest", "Financial Ratios", "Financial Planning", "Budgeting", "Cash Budget", "Cost Estimation", "Operational Cost", "Public Sector", "Taxation", "Project Financing", "Replacement Analysis", "Opportunity Cost", "Capital Financing"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  
   {
     "type": "heading",
     "heading": "SECTION A (Answer all questions)",
