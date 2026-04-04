@@ -1,0 +1,336 @@
+[
+  
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "General Biohemistry I",
+    "code": "CEG 481.1",
+    "session": "2024/2025",
+    "topics": ["Flow Measurement", "Fluid Mechanics", "Laboratory Techniques", "Calibration", "Measurement Accuracy", "Fluid Properties", "Installation Best Practices", "Instrumentation", "Pressure Measurement", "Noise Reduction", "Experimentation", "Reynolds Number", "Flow Regimes", "Instrument Selection", "Engineering Design"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Flow Measurement",
+      "Hydraulics Bench",
+      "Laboratory Equipment"
+    ],
+    "Question": {
+      "content": "The Flow Meter Test rig (F1-21) accessory is designed to be positioned on the side of the hydraulics bench _______ the P channel.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "alongside"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔧 F1-21 Flow Meter Test Rig Placement</h4>\n \n <p>The F1-21 is a <strong>modular accessory</strong> designed to sit <strong>alongside</strong> the hydraulics bench, connecting to the P-channel (the pump outlet).</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>📌 Why \"alongside\"?</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li>The bench provides water supply and return.</li>\n <li>The test rig sits <strong>next to</strong> (alongside) the bench, connected by hoses.</li>\n <li>This modular design lets you swap different experiment accessories easily.</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Visualize It:</strong> Like a printer sitting alongside a computer — connected but separate.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>alongside</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Flow Measurement",
+      "Venturi Meter",
+      "Rotameter",
+      "Orifice Plate"
+    ],
+    "Question": {
+      "content": "The venturi meter, variable area meter and the orifice plate are installed in a _______ to permit direct comparison.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "series"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔗 Installed in Series — Why?</h4>\n \n <p>All three flowmeters (Venturi, Rotameter, Orifice Plate) are placed <strong>one after another in the same pipe line</strong>. This is called being <strong>in series</strong>.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>✅ Benefits of Series Installation:</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li><strong>Same flow rate</strong> passes through all meters simultaneously.</li>\n <li>You can <strong>compare readings directly</strong> at the exact same flow condition.</li>\n <li>No need to run multiple experiments — one test gives data for all three!</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Analogy:</strong> Like three different speedometers on the same car. At 60 km/h, you can see which one reads accurately and which one is off.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>series</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Flow Control",
+      "Hydraulics Bench",
+      "Pressure Control"
+    ],
+    "Question": {
+      "content": "Flow through the test section is regulated using a flow control valve. This together with the bench control valve permits variation of the system _______ pressure.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "static"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🎛️ Controlling Static Pressure</h4>\n \n <p>There are <strong>two valves</strong> working together:</p>\n \n <div style='margin: 12px 0;'>\n <ul style='margin: 8px 0 0 20px;'>\n <li><strong>Bench control valve</strong> — controls water from the pump (like a main tap).</li>\n <li><strong>Flow control valve</strong> — fine-tunes flow through the test section.</li>\n </ul>\n </div>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>📌 What is Static Pressure?</strong><br>\n Static pressure is the <strong>pressure you'd measure if the fluid were still</strong> (not moving). By adjusting both valves, you can change the overall system pressure while keeping flow steady. This lets you study how pressure affects flowmeter performance.\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Simple Analogy:</strong> Think of the bench valve as the \"main water supply\" and the flow control valve as the \"shower head dial.\" Together, they control both flow rate and the pressure you feel.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>static</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Manometer",
+      "Pressure Measurement",
+      "Laboratory Equipment"
+    ],
+    "Question": {
+      "content": "Pressure tapings in the circuit are connected to an eight-bank manometer which incorporates an air inlet/outlet valve in the top manifold with facilities to connect a _______ pump.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "hand"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>💨 The Eight-Bank Manometer & Hand Pump</h4>\n \n <p>A <strong>hand pump</strong> is used to adjust the air pressure inside the manometer manifold. This sets the water levels to a convenient starting position before taking readings.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>🔧 Why a Hand Pump?</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li>It lets you <strong>zero the manometer</strong> — set all water columns to the same level.</li>\n <li>You can apply slight pressure to prevent water from being sucked too high or too low.</li>\n <li>It's manual (<strong>hand-operated</strong>), so no electricity needed — simple and reliable.</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Visualize:</strong> Like using a rubber bulb to prime a siphon or set a water level in a U-tube.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>hand</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Manometer",
+      "Pressure Tapping",
+      "Flow Measurement"
+    ],
+    "Question": {
+      "content": "The pressure tapings for the manometers are arranged to give a set of readings _______ the flow meters in the system.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "around"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📍 Pressure Tapings \"Around\" the Flowmeters</h4>\n \n <p>The pressure tapings (small holes in the pipe wall) are positioned <strong>before, at, and after</strong> each flowmeter. This allows you to measure pressure changes <strong>around</strong> (upstream, throat, downstream) each device.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>📌 For Example — Venturi Meter:</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li><strong>Upstream tapping</strong> — before the meter (high pressure)</li>\n <li><strong>Throat tapping</strong> — at the narrowest section (low pressure)</li>\n <li><strong>Downstream tapping</strong> — after the meter (recovering pressure)</li>\n </ul>\n <p>By connecting these to the manometer, you see the pressure profile <strong>around</strong> the meter.</p>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Why \"Around\"?</strong> It means you're capturing the complete pressure story — not just one point, but the entire region where the flow is changing.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>around</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Flow Measurement",
+      "Experiment Objectives",
+      "Energy Losses"
+    ],
+    "Question": {
+      "content": "The objective of flow meter demonstration experiment is to investigate the operation and characteristics of three different basic types of volumetric measuring _______ of energy losses.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "accuracies"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🎯 What We're Investigating</h4>\n \n <p>The full objective: to investigate the <strong>operation, characteristics, and accuracies</strong> of three different flowmeters, along with the <strong>energy losses</strong> they cause.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>📊 What \"Accuracies\" Means Here:</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li>How close does each meter's reading come to the <strong>true flow rate</strong>?</li>\n <li>Which meter is most accurate at low flow? At high flow?</li>\n <li>How do energy losses (pressure drops) affect accuracy?</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Big Picture:</strong> You're not just learning how each meter works. You're learning <strong>which meter to trust</strong> for different jobs based on accuracy and energy efficiency.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>accuracies</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Hydraulics Bench",
+      "Flow Rate Measurement",
+      "Volumetric Method"
+    ],
+    "Question": {
+      "content": "The hydraulics bench allows us to measure _______ by timed volume collection.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "flow rate"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>⏱️ The \"Bucket & Stopwatch\" Method</h4>\n \n <p>The hydraulics bench has a built-in <strong>volumetric tank</strong> (like a large measuring cylinder). You direct water into it, time how long it takes to fill a known volume, and calculate <strong>flow rate</strong>.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>📐 The Formula:</strong>\n \\[ Q = \\frac{\\text{Volume}}{\\text{Time}} \\]\n <ul style='margin: 8px 0 0 20px;'>\n <li>If you collect 10 liters in 20 seconds, flow rate = 10 L ÷ 20 s = <strong>0.5 L/s</strong></li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Why This Matters:</strong> This is your <strong>reference measurement</strong> — the \"truth\" against which you compare the Venturi, orifice, and rotameter readings. It's simple but highly accurate.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>flow rate</span> (also called discharge — see Question 12!)</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Discharge Coefficient",
+      "Weirs",
+      "Open Channel Flow"
+    ],
+    "Question": {
+      "content": "Discharge coefficient values can be determined from measurements of the height of the free surface of water above the notch base, and the corresponding _______ flow rate.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Volume"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📏 Finding the Discharge Coefficient (Cd)</h4>\n \n <p>For a weir (like a V-notch or rectangular notch), the <strong>discharge coefficient</strong> is a correction factor that accounts for real-world effects like friction and contraction.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>🧪 How to Find Cd:</strong>\n <ol style='margin: 8px 0 0 20px;'>\n <li>Measure the <strong>water height (H)</strong> above the notch base.</li>\n <li>Measure the <strong>actual volume flow rate (Q_actual)</strong> using the bench's volumetric tank.</li>\n <li>Calculate the <strong>theoretical flow rate (Q_theory)</strong> using the weir formula.</li>\n <li>Cd = Q_actual ÷ Q_theory</li>\n </ol>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Real-World Insight:</strong> Cd is rarely 1.0. It's usually between 0.6 and 0.95 depending on the weir shape. Finding it helps you use the weir as an accurate flow measuring device.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>Volume</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Open Channel Flow",
+      "Weirs",
+      "Flume Experiment"
+    ],
+    "Question": {
+      "content": "To determine the characteristics of open-channel flow is the objective of _______ experiment.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Flume Weirs"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🌊 Flume Weirs Experiment</h4>\n \n <p>While the flowmeter experiment deals with <strong>pipe flow</strong> (closed conduit), the <strong>flume weirs experiment</strong> deals with <strong>open channel flow</strong> — water flowing in a channel with a free surface (like a river or irrigation ditch).</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>🔍 What You Learn:</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li>How water behaves when it flows over a notch or weir.</li>\n <li>Relationship between water height and flow rate.</li>\n <li>Energy losses in open channels.</li>\n <li>How to design spillways, dams, and irrigation structures.</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Connection:</strong> In the hydraulics lab, you'll do both experiments. Question 9 is reminding you which experiment is for open channels (Flume Weirs) vs pipes (Flow Meter Test Rig).\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>Flume Weirs</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Flow Measurement",
+      "Laboratory Apparatus",
+      "Test Rig"
+    ],
+    "Question": {
+      "content": "The _______ is used for flow meter demonstration experiment.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "meter test apparatus"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔬 The Meter Test Apparatus</h4>\n \n <p>This is the formal name for the equipment that holds the three flowmeters (Venturi, orifice, rotameter) and the manometers. It's often called the <strong>F1-21 Flow Meter Test Rig</strong>.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>📌 What It Includes:</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li>Three flowmeters installed in series</li>\n <li>Pressure tapings for each meter</li>\n <li>Connection to an eight-bank manometer</li>\n <li>Flow control valve</li>\n <li>Mounting that attaches to the hydraulics bench</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Name Recognition:</strong> In your lab manual, it's called the \"Meter Test Apparatus\" or \"Flow Meter Test Rig.\" Knowing the equipment name is important for writing lab reports!\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>meter test apparatus</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Flow Measurement",
+      "Flowmeter Types",
+      "Terminology"
+    ],
+    "Question": {
+      "content": "Variable area meter, venturi meter and orifice plate are all referred to as _______ meters.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Flume"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>⚠️ Important Terminology Note</h4>\n \n <p>This question points out that these three devices are collectively called <strong>Flume Meters</strong> in your lab context. However, be careful — this is <strong>specific to your equipment manual</strong>.</p>\n \n <div style='background: var(--warningBg); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>📚 Clarification:</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li>In general engineering terms, these are called <strong>flowmeters</strong> or <strong>flow measuring devices</strong>.</li>\n <li>In your <strong>F1-21 manual</strong>, they are grouped under \"Flume Meters\" because they're all mounted on a common test rig.</li>\n <li>Don't confuse this with a \"flume\" (open channel) — here it's just a naming convention for the experiment.</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Exam Tip:</strong> When answering questions from your lab manual, use the terms exactly as they appear in the manual. Here, that term is \"Flume Meters.\"\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>Flume</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Fluid Mechanics",
+      "Terminology",
+      "Flow Rate"
+    ],
+    "Question": {
+      "content": "Flow rate can also be known as _______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Discharge"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📖 Flow Rate = Discharge</h4>\n \n <p>In fluid mechanics, <strong>flow rate</strong> and <strong>discharge</strong> mean the same thing: the <strong>volume of fluid passing a point per unit time</strong>.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>📐 Notation:</strong>\n \\[ Q = \\frac{V}{t} \\]\n <ul style='margin: 8px 0 0 20px;'>\n <li><strong>Q</strong> = flow rate / discharge (m³/s, L/s, etc.)</li>\n <li><strong>V</strong> = volume (m³, L)</li>\n <li><strong>t</strong> = time (seconds)</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Common Usage:</strong>\n <ul>\n <li>\"The river's <strong>discharge</strong> is 500 m³/s.\"</li>\n <li>\"The pump's <strong>flow rate</strong> is 50 L/min.\"</li>\n </ul>\n Both sentences mean the same thing — volume per time.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>Discharge</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Flow Measurement",
+      "Rotameter",
+      "Variable Area Meter"
+    ],
+    "Question": {
+      "content": "Variable area flume meter is also referred to as _______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "rotameter"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔄 Rotameter = Variable Area Meter</h4>\n \n <p>The <strong>variable area meter</strong> is commonly called a <strong>rotameter</strong>. It's the one with a tapered tube and a float that rises as flow increases.</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>⚙️ How It Works:</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li>Fluid flows upward through a tapered tube.</li>\n <li>A float sits inside; higher flow pushes the float higher.</li>\n <li>The <strong>annular area</strong> around the float changes with position — hence \"variable area.\"</li>\n <li>You read the flow rate directly from a scale next to the float's position.</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Why \"Rotameter\"?</strong> The float often spins (rotates) slightly during operation, giving it the name. It's a simple, direct-reading flowmeter — no calibration curve needed for many applications.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>rotameter</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Hydraulics",
+      "Hydrostatic Pressure",
+      "Experiment Comparison"
+    ],
+    "Question": {
+      "content": "A quadrant is to the Hydraulic Pressure experiment, just as a venturimeter is to the _______ experiment.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Meter Demands"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔄 Analogy: Quadrant ↔ Venturi</h4>\n \n <p>This is asking you to recognize which experiment each piece of equipment belongs to:</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0;'>\n <table style='width: 100%; border-collapse: collapse;'>\n <tr style='border-bottom: 1px solid var(--lightAsh);'>\n <td style='padding: 8px;'><strong>Equipment</strong></td>\n <td style='padding: 8px;'><strong>Experiment</strong></td>\n </tr>\n <tr style='border-bottom: 1px solid var(--lightAsh);'>\n <td style='padding: 8px;'>Quadrant (Hydrostatic Pressure apparatus)</td>\n <td style='padding: 8px;'><strong>Hydraulic Pressure experiment</strong></td>\n </tr>\n <tr>\n <td style='padding: 8px;'>Venturimeter</td>\n <td style='padding: 8px;'><strong>Meter Demands / Flow Meter experiment</strong></td>\n </tr>\n </table>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Understanding the Phrase \"Meter Demands\":</strong><br>\n \"Meter Demands\" refers to the experiment where you study how different flowmeters (Venturi, orifice, rotameter) perform. The venturimeter is the main device in that experiment, just as the quadrant is the main device in the hydraulic pressure experiment.\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>Meter Demands</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Hydrostatics",
+      "Fluid Mechanics",
+      "Pressure Force"
+    ],
+    "Question": {
+      "content": "Partially submerged vertical plane surface is mathematically expressed as F = _______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Pg A h"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📐 Hydrostatic Force Formula</h4>\n \n <p>The force on a partially submerged vertical plane surface is given by:</p>\n \n <div style='background: var(--preset-bg-color); padding: 12px; border-radius: 8px; margin: 12px 0; text-align: center;'>\n <strong style='color: var(--strongColor); font-size: 1.1rem;'>F = ρ g A h̅</strong>\n <p style='margin: 8px 0 0 0;'>or in the notation used: <strong>F = P g A h</strong></p>\n </div>\n \n <div style='margin: 12px 0;'>\n <strong style='color: var(--strongColor);'>🔤 What Each Symbol Means:</strong>\n <ul style='margin: 8px 0 0 20px;'>\n <li><strong>F</strong> = Total hydrostatic force (Newtons)</li>\n <li><strong>P (or ρ)</strong> = Density of the fluid (kg/m³)</li>\n <li><strong>g</strong> = Acceleration due to gravity (9.81 m/s²)</li>\n <li><strong>A</strong> = Area of the submerged surface (m²)</li>\n <li><strong>h (or h̅)</strong> = Depth to the centroid of the submerged area (m)</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 12px; border-radius: 8px; color: var(--infoCl);'>\n <strong>💡 Intuition:</strong> This formula says that the force pushing on a submerged wall depends on:\n <ul>\n <li>How heavy the fluid is (ρg)</li>\n <li>How big the wall is (A)</li>\n <li>How deep the middle of the wall is (h)</li>\n </ul>\n The deeper you go, the greater the force — which is why dams are thicker at the bottom!\n </div>\n \n <p><strong>🎓 Answer:</strong> <span style='color: var(--strongColor); font-weight: bold;'>Pg A h</span></p>\n</div>"
+    }
+  }
+]

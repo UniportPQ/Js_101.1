@@ -1,0 +1,483 @@
+[
+  {
+    "type": "heading",
+    "heading": "SECTION A (Answer all questions)",
+    "Subheading": "Reinforced Concrete Design (CEG 443.1) - First Semester Examination 2023/2024"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Durability",
+      "Environmental Engineering"
+    ],
+    "Question": {
+      "content": "What is the meaning of exposure condition?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📖 Exposure Condition Explained</h4>\n<p><strong>Exposure condition</strong> refers to the <strong>environmental surroundings</strong> that concrete will face during its service life (e.g., indoors, outdoors, marine, or chemically aggressive environments).</p>\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>🔍 Why it matters:</strong><br>\nIt determines the required <strong>concrete cover depth</strong>, <strong>minimum strength grade</strong>, and <strong>maximum water-cement ratio</strong> to ensure durability against corrosion, freeze-thaw, or chemical attack.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Exposure condition is the classification of the environmental surroundings (e.g., dry, humid, marine, corrosive) that a concrete member is subjected to, which dictates its durability design requirements."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Fire Safety",
+      "Structural Engineering"
+    ],
+    "Question": {
+      "content": "What property of a reinforced concrete member takes care of fire resistance?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔥 Fire Resistance in RC Members</h4>\n<p>The primary property is <strong>low thermal conductivity</strong> combined with the <strong>chemical binding of water</strong> in cement paste.</p>\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>📌 How it works:</strong><br>\nConcrete transfers heat slowly, protecting embedded steel rebar. The chemically bound water absorbs heat as steam, keeping the core cool for extended periods (1–4 hours).\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Low thermal conductivity and the presence of chemically bound water in the cement paste (which absorbs heat through dehydration)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Structural Analysis",
+      "Limit State Design"
+    ],
+    "Question": {
+      "content": "The design load is obtained by dividing the characteristic load by the partial safety factor.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>⚖️ Design Load Formula</h4>\n<p>The correct relationship is: <strong>Design Load = Characteristic Load × Partial Safety Factor</strong> (not division).</p>\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>📐 Example:</strong><br>\nIf \\( \\gamma_f = 1.4 \\) and characteristic load = 10 kN, then design load = \\( 10 \\times 1.4 = 14 \\) kN.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Steel Reinforcement",
+      "Construction Drawings"
+    ],
+    "Question": {
+      "content": "In a bar description, the nomenclature 'T' means what?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📏 Bar Nomenclature 'T'</h4>\n<p>In reinforcement detailing, '<strong>T</strong>' stands for <strong>Top reinforcement</strong> (placed near the top surface of a beam or slab to resist negative bending moments).</p>\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>🔁 Related:</strong><br>\n'B' is used for Bottom reinforcement.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "'T' means Top reinforcement (bars placed near the top face of the member)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Design Documentation",
+      "Structural Calculations"
+    ],
+    "Question": {
+      "content": "A calculation sheet is usually divided into 3 parts namely: reference column, calculation column and the input column.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📋 Calculation Sheet Format</h4>\n<p>A standard calculation sheet is divided into <strong>three columns</strong>: (1) <strong>Reference column</strong> (clause/code refs), (2) <strong>Calculation column</strong> (calculations & steps), (3) <strong>Result column</strong> (output values).</p>\n<div style='margin-bottom: 12px;'>\nSome texts call the third column \"Input\" or \"Result\", but the three-part structure is correct.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Yes"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Beam Design",
+      "Compression Reinforcement"
+    ],
+    "Question": {
+      "content": "There is need to calculate for the modification factor in compression reinforcement for a singly reinforced beam.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📊 Singly vs Doubly Reinforced Beams</h4>\n<p>A <strong>singly reinforced beam</strong> has <strong>no compression reinforcement</strong> (only tension steel). Therefore, no modification factor for compression steel is needed.</p>\n<div style='margin-bottom: 12px;'>\nModification factors for compression reinforcement apply only to <strong>doubly reinforced beams</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Slab Design",
+      "Cracking Control"
+    ],
+    "Question": {
+      "content": "If slab depth is ≤ 250mm for grade 460 steel, cracking condition is satisfactory.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔍 Cracking & Slab Depth (BS 8110)</h4>\n<p>According to BS 8110, for slabs with <strong>grade 460 reinforcement</strong>, if the total depth ≤ 250 mm, cracking is deemed satisfactory <strong>without detailed calculation</strong> (provided bar spacing rules are followed).</p>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Yes"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Beam Design",
+      "Lever Arm"
+    ],
+    "Question": {
+      "content": "When the calculated lever arm Z is less than 0.95d, use 0.95d for your design.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📐 Lever Arm Limit (BS 8110)</h4>\n<p>In BS 8110, the lever arm \\( Z \\) is <strong>limited to a maximum of 0.95d</strong>. If calculated \\( Z > 0.95d \\), you must use <strong>0.95d</strong> (not when it is less).</p>\n<div style='margin-bottom: 12px;'>\n<strong>✅ Correct rule:</strong> Use \\( Z = \\min(\\text{calculated } Z,\\ 0.95d) \\).\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Limit State Design",
+      "Serviceability"
+    ],
+    "Question": {
+      "content": "When a structure is too flexible such that it brings discomfort to its users, it is said to have reached an ultimate limit state.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🏗️ Limit State Types</h4>\n<p><strong>Excessive deflection</strong> causing discomfort is a <strong>Serviceability Limit State (SLS)</strong>, not Ultimate Limit State (ULS).</p>\n<div style='margin-bottom: 12px;'>\n<strong>📌 ULS</strong> = collapse, overturning, buckling.<br>\n<strong>📌 SLS</strong> = deflection, cracking, vibration.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Slab Design",
+      "Two-Way Slabs"
+    ],
+    "Question": {
+      "content": "A two-way spanning slab has structural effects in the two directions.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔄 Two-Way Slab Action</h4>\n<p>A <strong>two-way slab</strong> is supported on all four sides and bends in <strong>two orthogonal directions</strong>, transferring loads to supports along both spans.</p>\n<div style='margin-bottom: 12px;'>\nThis occurs when the ratio of longer to shorter span ≤ 2.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Yes"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Column Design",
+      "Structural Analysis"
+    ],
+    "Question": {
+      "content": "Column is not a compression member and cannot be subjected to bending.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🏛️ Column Behavior</h4>\n<p>A column is primarily a <strong>compression member</strong>, but most columns are subjected to <strong>combined axial load and bending</strong> (from beams, wind, or eccentricity).</p>\n<div style='margin-bottom: 12px;'>\n<strong>❌ False statement:</strong> Columns ARE compression members and CAN be subjected to bending.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Reinforced Concrete Design",
+      "BS 8110",
+      "Design Aids"
+    ],
+    "Question": {
+      "content": "Design charts cannot be used for the design of beams in BS 8110.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📊 BS 8110 Design Charts</h4>\n<p>BS 8110 provides <strong>design charts</strong> (e.g., for singly/doubly reinforced beams, columns) to simplify reinforcement calculation from \\( K \\) and \\( K' \\) values.</p>\n<div style='margin-bottom: 12px;'>\nThey are commonly used for both beams and columns.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Column Design",
+      "Slenderness"
+    ],
+    "Question": {
+      "content": "Short columns are subjected to deflection induced additional moments.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📏 Short vs Slender Columns</h4>\n<p><strong>Short columns</strong> fail primarily by crushing of concrete; <strong>secondary moments</strong> from deflection are negligible and can be ignored.</p>\n<div style='margin-bottom: 12px;'>\n<strong>Slender columns</strong> experience significant deflection-induced (P-Δ) additional moments.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Axially Loaded Column",
+      "Reinforcement Design"
+    ],
+    "Question": {
+      "content": "If the area of steel (Asc) obtained from the design of an axially loaded column is negative, what do you do?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🔧 Negative Steel Area</h4>\n<p>A negative \\( A_{sc} \\) means the concrete section alone can carry the load. You must still provide <strong>minimum reinforcement</strong> as per code (e.g., 0.4% of gross area in BS 8110).</p>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Provide the minimum reinforcement required by the code (e.g., 0.4% of gross cross-sectional area for BS 8110)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Column Design",
+      "Rectangular Columns"
+    ],
+    "Question": {
+      "content": "In a rectangular column design, b = h.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📐 Rectangular Column Notation</h4>\n<p><strong>Rectangular columns</strong> have <strong>b ≠ h</strong> (breadth and depth are different). <strong>Square columns</strong> have \\( b = h \\).</p>\n<div style='margin-bottom: 12px;'>\nThe statement says \"rectangular\" which typically implies two different side lengths.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Foundations",
+      "Raft Foundation"
+    ],
+    "Question": {
+      "content": "Cellular raft is a type of deep foundation.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🏗️ Foundation Types</h4>\n<p>A <strong>cellular raft</strong> is a type of <strong>shallow foundation</strong> (a stiffened raft with voids to reduce weight or provide service ducts), not a deep foundation (like piles).</p>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Column Design",
+      "Geometric Properties"
+    ],
+    "Question": {
+      "content": "A circular column has a diameter of 0.4m, calculate the area of concrete in the column.",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📐 Area of Circular Column</h4>\n<p>Area of a circle = \\( \\pi r^2 \\) or \\( \\frac{\\pi d^2}{4} \\)</p>\n<div style='margin-bottom: 12px;'>\n\\( d = 0.4 \\text{ m} \\)<br>\n\\( r = 0.2 \\text{ m} \\)<br>\n\\( A = \\pi \\times (0.2)^2 = \\pi \\times 0.04 \\)<br>\n\\( A = 0.12566 \\text{ m}^2 \\) (or \\( 125,663 \\text{ mm}^2 \\))\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( A_c = \\frac{\\pi \\times 0.4^2}{4} = 0.12566 \\text{ m}^2 \\) or \\( 125,663 \\text{ mm}^2 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Footings",
+      "Boundary Conditions"
+    ],
+    "Question": {
+      "content": "If a footing is very close to your neighbor's property, what type of footing can you adopt to support a column on the property line?",
+      "type": "subjective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🏠 Property Line Footings</h4>\n<p>When a column must be placed on a property line, a <strong>pad footing</strong> would extend into the neighbor's land. Solutions include an <strong>eccentric footing</strong> (offset column) or a <strong>combined footing</strong> with an adjacent column.</p>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "An eccentric (strap) footing or a combined footing with an internal column."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Foundations",
+      "Pad Footing"
+    ],
+    "Question": {
+      "content": "Combined footing is not a type of pad foundation.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>📌 Pad Foundation Types</h4>\n<p>A <strong>pad foundation</strong> typically supports a <strong>single column</strong>. A <strong>combined footing</strong> supports <strong>two or more columns</strong> and is considered a separate category, not a type of pad foundation.</p>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Yes"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": [
+      "Reinforced Concrete Design",
+      "Structural Systems",
+      "Load Path"
+    ],
+    "Question": {
+      "content": "Walls around a building does not play a major role in the design of columns.",
+      "type": "OBJ",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>🧱 Walls & Column Design</h4>\n<p>Walls (especially masonry infill) significantly affect columns by:<br>\n(1) Adding <strong>vertical loads</strong> to columns,<br>\n(2) Providing <strong>lateral stiffness</strong> (changing effective length),<br>\n(3) Creating <strong>eccentricities</strong>.</p>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  }
+]
